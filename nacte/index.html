@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>jQuery Mobile Demos</title>
+	<link rel="stylesheet"  href="assets/css/jquery.mobile-1.3.1.min.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
+	<script src="assets/js/jquery.js"></script>
+	<script src="assets/js/jquery.mobile-1.3.1.min.js"></script>
+<link rel="shortcut icon" href="images/favicon.png">
+<style type="text/css">
+.ui-body-c,.ui-overlay-c {
+	background: url(background.png) center no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+</style>
+</head>
+
+<body>
+<div data-role="page" id="home">
+
+<div data-role="panel" id="nav" data-position="left" data-display="reveal" data-theme="a" class="ui-panel-position-left ui-panel-display-reveal ui-body-a ui-panel-animate ui-panel-open">
+    This is the nav bar.
+    <br />
+    <a href="#home" data-rel="close" data-role="button" data-theme="a" data-icon="delete" data-inline="true" data-corners="true" data-shadow="true" data-iconshadow="true" data-wrapperels="span" class="ui-btn ui-shadow ui-btn-corner-all ui-btn-inline ui-btn-icon-left ui-btn-up-a"><span class="ui-btn-inner">
+    <span class="ui-btn-text">Close panel</span><span class="ui-icon ui-icon-delete ui-icon-shadow">&nbsp;</span></span></a>
+</div><!-- /panel -->
+
+<!-- header -->
+<div data-role="header"
+<!-- content -->
+<div data-role="content" id="home1">
+<a href="#nav" data-role="button" data-inline="true" data-mini="true" data-corners="true" data-shadow="true" data-iconshadow="true" data-wrapperels="span" data-theme="c" class="ui-btn ui-shadow ui-btn-corner-all ui-mini ui-btn-inline ui-btn-up-c"><span class="ui-btn-inner"><span class="ui-btn-text">Reveal</span></span></a>
+<p>This is the home.</p>
+</div>
+<!-- footer -->
+
+</div><!-- page -->
+    
+    
+
+</body>
+</html>
